@@ -1,0 +1,14 @@
+[project]
+name = "ibkr-bot"
+version = "0.1.0"
+description = "Minimal IBKR trading bot"
+requires-python = ">=3.10"
+
+dependencies = [
+  "ib-insync>=0.9.86",
+  "python-dotenv>=1.0.0"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

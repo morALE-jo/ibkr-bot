@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ibkr_bot/main.py
+src/ibkr_bot.egg-info/PKG-INFO
+src/ibkr_bot.egg-info/SOURCES.txt
+src/ibkr_bot.egg-info/dependency_links.txt
+src/ibkr_bot.egg-info/requires.txt
+src/ibkr_bot.egg-info/top_level.txt
+src/ibkr_bot/broker/ibkr_client.py
