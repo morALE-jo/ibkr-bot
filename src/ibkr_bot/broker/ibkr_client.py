@@ -15,7 +15,9 @@ class IBKRClient:
 
     def connect(self):
         self.ib.connect(self.host, self.port, clientId=self.client_id)
+        print(f"Connected to {self.host}:{self.port} (clientId={self.client_id})")
         return self.ib.isConnected()
+
 
     def disconnect(self):
         if self.ib.isConnected():

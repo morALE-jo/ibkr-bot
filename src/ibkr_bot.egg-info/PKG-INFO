@@ -5,3 +5,4 @@ Summary: Minimal IBKR trading bot
 Requires-Python: >=3.10
 Requires-Dist: ib-insync>=0.9.86
 Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: pandas>=2.2.0
